@@ -12,15 +12,19 @@ body {
 [class*="col"] {
     background: hsl(327, 43%, 72%);
     border: 1px rgb(0, 0, 0) solid;
-    height: 100px;
+    height: 150px;
     text-align: center;
     padding: 15px;
 }
 
+/*  
 [class*="col"] > .row > [class*="col"] 
 {
    height: 100%;
+   
 }
+*/
+
 
 
 

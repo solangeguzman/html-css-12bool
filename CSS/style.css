@@ -7,6 +7,7 @@ body {
 
 .row {
     height: 100%;
+    
 }
 
 [class*="col"] {
@@ -14,17 +15,21 @@ body {
     border: 1px rgb(0, 0, 0) solid;
     height: 150px;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
 }
 
-/*  
+
 [class*="col"] > .row > [class*="col"] 
 {
    height: 100%;
+   background-color:rgb(212, 48, 117);
+   border: 1px rgb(255, 255, 255) solid;
    
 }
-*/
 
+.col-1, .col-2, .col-4, .col.8{
+    margin-top: 10px;
+}
 
 
 
